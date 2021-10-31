@@ -1,0 +1,38 @@
+.top{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .top-cat-pro{
+       border: 0px solid red;
+       width: 370px;
+       height: 250px;
+       float: left;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+       transition: transform 1s;
+    }
+    .top-cat-pro img{
+        width: 100%;
+    }
+    .fa-star{
+        color: orange;
+    }
+    .starr{
+        border: 0px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 32px;
+    }
+    
+    .top-cat-pro:hover{
+        transform: scale(1.05);
+    }
+    p{
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }

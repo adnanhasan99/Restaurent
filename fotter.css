@@ -1,0 +1,19 @@
+.fotter{
+    height: 200px;
+    width: 100%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.fotter-box{
+    height: 180px;
+    width: 300px;
+    border: 0px solid blue;
+    float: left;
+    color: white;
+    text-align: center;
+
+    
+}
